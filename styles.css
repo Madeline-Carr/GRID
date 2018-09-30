@@ -1,0 +1,23 @@
+body{
+  font-family: sans-serif;
+  margin: 0px;
+  background-color: #333;
+}
+.wrapper{
+  width: 75%;
+  margin: 0 auto;
+}
+h1{
+  color: aliceblue;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 7fr 3fr; /* Makes two columns one has 70% width one has 30.*/
+  grid-column-gap: 1em; /* Creates a gap between columns. */
+  grid-row-gap: .5em; /* Creates a gap between rows. */
+  /* grid-gap: 1em; Creates a gap between rows and columns. */
+}
+div{
+  font-size: 1em;
+}
